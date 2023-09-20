@@ -1,6 +1,6 @@
 # Adding 7TV Emotes to Twitch Channel
 
-This is a Twitch bot designed to seamlessly integrate 7TV emotes into your Twitch channel. It's built using Node.js, and below, you'll find instructions on how to set up and run this bot, even if you're a beginner with programming.
+This is a [Twitch](https://www.twitch.tv/) bot designed to seamlessly integrate [7TV](https://7tv.app/) emotes into your Twitch channel. It's built using [Node.Js](https://nodejs.org/en), and below, you'll find instructions on how to set up and run this bot, even if you're a beginner with programming.
 # Getting Started
 
 To get started, follow these simple steps:
