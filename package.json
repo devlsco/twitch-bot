@@ -1,0 +1,22 @@
+{
+  "name": "twitch-bot",
+  "version": "1.0.1",
+  "description": "This is a Twitch bot designed to seamlessly integrate 7TV emotes into your Twitch channel. It's built using Node.Js, and below, you'll find instructions on how to set up and run this bot, even if you're a beginner with programming.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "twitch",
+    "bot",
+    "7tv"
+  ],
+  "author": "LsCo (Lennox O)",
+  "license": "MIT",
+  "dependencies": {
+    "@kararty/dank-twitch-irc": "^4.6.0",
+    "fs": "^0.0.1-security",
+    "humanize-duration": "^3.30.0",
+    "node-fetch": "^2.7.0"
+  }
+}

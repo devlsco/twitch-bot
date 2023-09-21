@@ -11,7 +11,7 @@ If you haven't already, you'll need to install Node.js on your system. You can d
 
 ### Configure Your Bot
 
-First, open the `config.json` file and customize it to match your preferences. Here's an example of what the configuration should look like:
+First, open the `exempel config.json` file and rename it to `config.json`, then modify it. Here's an example of what the configuration should look like:
 
 ```json
 {
@@ -50,7 +50,9 @@ First, open the `config.json` file and customize it to match your preferences. H
 
 ### The bot supports the following commands, which you can trigger with the specified prefix (e.g., !ping):
 
-    - ping: A simple ping command.
-    - 7tv add <emotes...>: Add one or more 7TV emotes.
-    - 7tv remove <emotes...>: Remove one or more 7TV emotes.
-    - 7tv rename <old name> <new name>: Rename a 7TV emote from its old name to a new one.
+```
+- ping: A simple ping command.
+- 7tv add <emotes...>: Add one or more 7TV emotes.
+- 7tv remove <emotes...>: Remove one or more 7TV emotes.
+- 7tv rename <old name> <new name>: Rename a 7TV emote from its old name to a new one.
+```

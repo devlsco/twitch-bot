@@ -1,0 +1,16 @@
+{
+  "twitch": {
+    "username": "lsco",
+    "id": "617309984",
+    "oauth": "abc123",
+    "bot": {
+      "prefix": "!",
+      "owners": ["617309984"],
+      "admins": ["617309984"],
+      "channels": ["lsco", "lscotesting"]
+    }
+  },
+  "sevenTV": {
+    "oauth": "hu123"
+  }
+}
