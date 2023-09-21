@@ -7,41 +7,23 @@ const linkRegEx = /https:\/\/7tv\.app\/emotes\/([0-9a-z]{24})/;
 const getError = (errorCode, errorMessage) => {
   switch (Number(errorCode)) {
     case 704620:
-      return {
-        text: 'Your emote-set has reached its maximum capacity. FeelsBadMan',
-      };
+      return 'Your emote-set has reached its maximum capacity. FeelsBadMan';
     case 704610:
-      return {
-        text: 'The emote is not enabled. FeelsDankMan',
-      };
+      return 'The emote is not enabled. FeelsDankMan';
     case 704611:
-      return {
-        text: 'The emote is already enabled. FeelsDankMan',
-      };
+      return 'The emote is already enabled. FeelsDankMan';
     case 704612:
-      return {
-        text: 'The emote name already exists. FeelsDankMan',
-      };
+      return 'The emote name already exists. FeelsDankMan';
     case 70429:
-      return {
-        text: "We're rate limited. NotLikeThis",
-      };
+      return "We're rate limited. NotLikeThis";
     case 70403:
-      return {
-        text: 'Please grant @LsCo as 7tv editor :)',
-      };
+      return 'Please grant @LsCo as 7tv editor :)';
     case 70433:
-      return {
-        text: "BRUH I'm banned on 7TV",
-      };
+      return "BRUH I'm banned on 7TV";
     case 70441:
-      return {
-        text: 'Emote-set not found NotLikeThis',
-      };
+      return 'Emote-set not found NotLikeThis';
     default:
-      return {
-        text: "7TV's GQL returned an error. Try again later.",
-      };
+      return "7TV's GQL returned an error. Try again later.";
   }
 };
 

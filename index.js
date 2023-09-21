@@ -128,7 +128,7 @@ async function handleCommand(userstate, cmd, msg) {
         : [response.text];
 
       for (let i = 0; i < responseText.length; i++) {
-        const text = message(responseText[i].trim());
+        const text = message(responseText[i]?.trim());
 
         for (let j = 0; j < text.length; j++) {
           switch (command.Response) {
